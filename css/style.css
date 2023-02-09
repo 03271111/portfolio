@@ -1,20 +1,24 @@
 @charset "utf-8";
 
+
 body {
     width: 100%;
     margin: 0;
     padding: 0;
+    background-color: PaleTurquoise;
 }
 
 header {
     width: 100%;
     margin: 0;
     padding: 10px;
+    color: LightSalmon;
 }
+
 
 #menu {
     display: flex;
-    width: 100%;
+    width: 90%;
     justify-content: flex-end;
     list-style-type: none;
     margin: 0;
@@ -29,17 +33,27 @@ header {
 }
 
 #menu a{
-    color: black;
+    color: rgb(214, 180, 135);
     text-decoration: none;
+    font-size: 18px;
 }
 
 #menu a:hover{
-    color: green;
+    color: white;
 }
 
-#top h1, #top h2, #top p {
+#top h1, #top h2 {
     text-align: center;
     margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#top p {
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
 }
 
 main {
@@ -47,6 +61,8 @@ main {
     width: 900px;
     margin: 0 auto;
     padding: 10px;
+    border-radius: 15px;
+    color: Maroon;
 }
 
 section {
